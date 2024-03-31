@@ -27,13 +27,14 @@ namespace RadiantBeautyStudio.View
 
         private void enterBtn_Click(object sender, RoutedEventArgs e)
         {
-            using (BeautyStudioDBEntities db = new BeautyStudioDBEntities())
+            using (BeautyStudioDBEntities db = new BeautyStudioDBEntities())                              // подключение бд
             {
-                var user = db.User.FirstOrDefault(u => u.Password.Equals(passwordPB.Password) && u.Login.Equals(loginTB.Text)); var users = db.User.ToList();
+                var user = db.User.FirstOrDefault(u => u.Password.Equals(passwordPB.Password)             // присвоение user объект User из бд,                                                                                                        /
+                && u.Login.Equals(loginTB.Text)); var users = db.User.ToList();                           // если совпали введенный password и login с данными из бд
 
                 bool isEnter = false;
 
-                if(user != null)
+                if(user != null)                                                                          
                 {
                     isEnter = true;
                     AppointmentsWindow appointmentsWindow = new AppointmentsWindow();

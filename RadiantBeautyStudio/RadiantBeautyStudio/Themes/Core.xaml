@@ -2769,7 +2769,8 @@
                                         Margin="1,0,1,1" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content="{TemplateBinding Content}" 
                                         ContentTemplate="{TemplateBinding ContentTemplate}">
                             <ContentControl.Foreground>
-                                <SolidColorBrush x:Name="selectedText" Color="#FFCCCCCC"/>
+                                <SolidColorBrush x:Name="selectedText"
+                                                 Color="#c77966"/>
                             </ContentControl.Foreground>
                         </ContentControl>
                         <Rectangle x:Name="CalendarButtonFocusVisual" IsHitTestVisible="False" Visibility="Collapsed" Stroke="{StaticResource ControlActiveBorderBrush}" RadiusX="3" RadiusY="3"/>
@@ -2785,7 +2786,7 @@
     </Style>
 
     <Style x:Key="CalendarDayButtonStyle" TargetType="{x:Type CalendarDayButton}">
-        <Setter Property="Background" Value="{StaticResource HoverBackgroundCalendar}"/>
+        <Setter Property="Background" Value="#c77966"/>
         <Setter Property="Foreground" Value="Lime"/>
         <Setter Property="MinWidth" Value="5"/>
         <Setter Property="MinHeight" Value="5"/>
@@ -2915,7 +2916,7 @@
                                         Margin="5,0,5,1" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content="{TemplateBinding Content}" 
                                         ContentTemplate="{TemplateBinding ContentTemplate}">
                             <ContentControl.Foreground>
-                                <SolidColorBrush Color="#FFCCCDDD" x:Name="selectedText"/>
+                                <SolidColorBrush Color="#a14f6d" x:Name="selectedText"/>
                             </ContentControl.Foreground>
                         </ContentControl>
                         <Path x:Name="Blackout" HorizontalAlignment="Stretch" Margin="3" VerticalAlignment="Stretch" Opacity="0" RenderTransformOrigin="0.5,0.5" Fill="{StaticResource ControlForeground}" Stretch="Fill" 
@@ -2933,7 +2934,8 @@
         <Setter Property="SelectedDateFormat" Value="Short"/>
         <Setter Property="Background" Value="Transparent"/>
         <Setter Property="Padding" Value="2"/>
-        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="BorderThickness"
+                Value="1" />
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
         <Setter Property="CalendarStyle">
             <Setter.Value>
