@@ -15,9 +15,9 @@
     <EntitySetMapping Name="Client">
       <EntityTypeMapping TypeName="BeautyStudioDBModel.Client">
         <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
-          <ScalarProperty Name="LastName" ColumnName="LastName" />
           <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
           <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
           <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
@@ -46,10 +46,10 @@
     <EntitySetMapping Name="Staffer">
       <EntityTypeMapping TypeName="BeautyStudioDBModel.Staffer">
         <MappingFragment StoreEntitySet="Staffer">
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="IdRole" ColumnName="IdRole" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
-          <ScalarProperty Name="LastName" ColumnName="LastName" />
           <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
           <ScalarProperty Name="Salary" ColumnName="Salary" />
           <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />

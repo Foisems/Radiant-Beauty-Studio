@@ -37,7 +37,6 @@
                      Width="400"
                      HorizontalAlignment="Left"
                      IsIndeterminate="False"
-                     Style="{StaticResource ProgressBarPercent}"
                      FontSize="30"
                      FontFamily="Garamond"
                      Foreground="#c77966"

@@ -4,12 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RadiantBeautyStudio.View"
+        xmlns:ViewModel="clr-namespace:RadiantBeautyStudio.ViewModel"
         mc:Ignorable="d"
         Title="Radiant" Height="800" Width="1300"
         MinHeight="800" MinWidth="1300"
-        
         WindowStartupLocation="CenterScreen"
         Closing="Window_Closing">
+    <Window.DataContext>
+        <ViewModel:AppointmentsWindowViewModel />
+    </Window.DataContext>
+
+    
+
     <Grid Background="#FFFFEEFC">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.2*" />
@@ -102,18 +108,49 @@
 
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
                     <ColumnDefinition />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
                 <DatePicker VerticalAlignment="Center"
-                            Margin="70,0,45,0"/>
-                <ComboBox Grid.Column="1"
-                          Margin="45, 0"/>
+                            Margin="70,0,0,0"/>
+                <TextBox Grid.Column="1"
+                          Margin="70, 0, 0, 0"
+                          VerticalAlignment="Center"/>
                 <ComboBox Grid.Column="2"
-                          Margin="45, 0" />
+                          Margin="70, 0, 0, 0"
+                          VerticalAlignment="Center"/>
             </Grid>
+
+            <DataGrid Grid.Row="1"
+                      Margin="10"
+                      ItemsSource="{Binding AppointmentsLists, Mode=TwoWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}"
+                      AutoGenerateColumns="False"
+                      Name="DataGrid"
+                      IsReadOnly="True"
+                      SelectionMode="Single">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Дата"
+                                        Width="150"
+                                        Binding="{Binding Date}" />
+                    <DataGridTextColumn Header="Клиент"
+                                        Width="150"
+                                        Binding="{Binding ClientName}" />
+                    <DataGridTextColumn  Header="Номер клиента"
+                                         Width="150"
+                                         Binding="{Binding ClientPhone}" />
+                    <DataGridTextColumn Header="Услуга"
+                                        Width="250"
+                                        Binding="{Binding ServiceName}" />
+                    <DataGridTextColumn  Header="Сотрудник"
+                                         Width="*"
+                                         Binding="{Binding StafferName}" />
+
+                </DataGrid.Columns>
+            </DataGrid>
+
 
         </Grid>
         

@@ -49,7 +49,6 @@ C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyS
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\RadiantBeautyStudio_Content.g.cs
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\RadiantBeautyStudio_MarkupCompile.cache
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\RadiantBeautyStudio_MarkupCompile.lref
-C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\App.baml
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\View\AppointmentsWindow.baml
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\View\LoadWindow.baml
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\View\LoginWindow.baml
@@ -60,3 +59,5 @@ C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyS
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\RadiantBeautyStudio.csproj.CopyComplete
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\RadiantBeautyStudio.exe
 C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\RadiantBeautyStudio.pdb
+C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Olya\Desktop\Radiant Beauty Studio\Radiant Beauty Studio\RadiantBeautyStudio\RadiantBeautyStudio\obj\Debug\App.baml

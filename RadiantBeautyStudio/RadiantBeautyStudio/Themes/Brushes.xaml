@@ -219,8 +219,8 @@
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="DataGridRowHover" EndPoint="0,1" StartPoint="0,0">
-        <GradientStop Color="#FF7C7C7C" Offset="0"/>
-        <GradientStop Color="#FF1F1E1E" Offset="1"/>
+        <GradientStop Color="#ffc0cb" Offset="0"/>
+        <GradientStop Color="#fcbeb6" Offset="1"/>
     </LinearGradientBrush>
 
     <LinearGradientBrush x:Key="DataGridRow" EndPoint="0,1" StartPoint="0,0">
@@ -307,5 +307,7 @@
     <controls:Thickness x:Key="MarginBorderButton">0</controls:Thickness>
     <controls:Thickness x:Key="MarginContentButton">0</controls:Thickness>
     <controls:Thickness x:Key="MarginBorderButtonOver">0</controls:Thickness>
+
+
 
 </ResourceDictionary>
